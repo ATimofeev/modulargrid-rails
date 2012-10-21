@@ -7,9 +7,19 @@ Rails wrapper implementation of [ModularGrid.js](http://github.com/aishek/modula
 Add this line to your application's Gemfile:
 
 ```ruby
-group :development do
-  gem 'modulargrid-rails'
-end
+gem 'modulargrid-rails'
+```
+
+Load Modulargrid in your application layout:
+
+```haml
+= javascript_include_tag 'modulargrid' if Rails.env == 'development'
+```
+
+or call in application.js
+
+```javascript
+//= require modulargrid
 ```
 
 And then execute:
