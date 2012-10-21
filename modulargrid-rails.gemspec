@@ -12,6 +12,8 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Modulargrid.js Rails implementation}
   gem.homepage      = "https://github.com/ATimofeev/modulargrid-rails"
 
+  gem.rubyforge_project = "modulargrid-rails"
+
   gem.files         = `git ls-files`.split($/)
   gem.require_paths = ["lib"]
 
