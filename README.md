@@ -10,6 +10,16 @@ Add this line to your application's Gemfile:
 gem 'modulargrid-rails'
 ```
 
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ gem install modulargrid-rails
+
+## Usage
+
 Load Modulargrid in your application layout:
 
 ```haml
@@ -21,16 +31,6 @@ or call in application.js
 ```javascript
 //= require modulargrid
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install modulargrid-rails
-
-## Usage
 
 Grid keybindings:
 
